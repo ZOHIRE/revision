@@ -96,9 +96,16 @@ namespace revision
             Console.WriteLine($"\n\nmax char={mychar},\tmin char={mychar2},\n\nmax int={_myvarvalue},\tmin int={_myvarvalue2},min uint={myuint1},\tmax uint={myuint2},\n\nmin long={_myvar1},\tmax long={_myvar2}\n\nmax ulong={myulong1},\tmin ulong={myulong2},\n\nmax short={_myshvar},\tmin short={myshvar}\n\nminushort={myushvar1},\tmax ushort={myushvar2}\n\nmin byte={mybyt1},\tmax byte={mybyt2}\n\nmin smolbyte={mysmolbyt1},\tmax smolbyte{mysmolbyt2}");
 
 
-            string mystr = " my name is mostafa";
-            Console.WriteLine($"{mystr}");
+            string mystr = " my name is mostafa ";
+            string mystr2 = "i lov programing ";
+            string mystr3 = "i hav mony";
+            string mystr4 = mystr + mystr2 + mystr3;
+            Console.WriteLine($"{mystr4}");
 
+           char mychar1 = 'k';
+            int mycharvalue1 = 'k';
+            
+                Console.WriteLine($"{mychar1},{mycharvalue1}");
 
             Console.ReadKey();
         }
